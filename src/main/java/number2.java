@@ -1,11 +1,12 @@
 class number2 {
     public String solution(int num) {
+//        1차풀이
 //            if(num % 2 == 0){
 //                return ("Even");
 //            }else{
 //                return ("Odd");
 //            }
-        //        2차풀이
+//        2차풀이
         return num % 2 == 0 ? "Even" : "Odd";
     }
 

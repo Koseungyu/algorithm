@@ -1,5 +1,5 @@
 public class number4 {
-    public long solution4(int a, int b) {
+    long solution4(int a, int b) {
         long answer = 0;
         if (a <= b) {
             for (int i = a; i <= b; i++) {
