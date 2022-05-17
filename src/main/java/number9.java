@@ -1,7 +1,7 @@
 public class number9 {
     String solution(String phone_number) {
         String answer = "";
-        //.split을 사용해서 phone_number를 하나하나씩 잘라서 a라는 문자열에 저장.
+        //.split을 사용해서 phone_number를 하나하나씩 잘라서 a라는 문자배열에 저장.
         String[] a = phone_number.split("");
         for(int i= 0; i<a.length; i++){
             if(i < (a.length-4)) {
@@ -20,7 +20,6 @@ public class number9 {
     }
 }
 
-//.charAt이란 string 타입으로 받은 문자열을 char 타입으로 한 글자만 받는 함수
 //1. 핸드폰 번호 앞자리를 가리기 위해 answer 변수의 타입을 String으로 해줌.
 //2. split을 사용하여 phone_number을 하나씩 잘라서 a라는 문자열 배열에 저장
 //3. 총 answer의 길이가 a.length와 동일하기에 for문을 사용

@@ -1,5 +1,5 @@
 public class number12 {
-    public long solution(int price, int money, int count) {
+    public long solution(int price, long money, int count) {
         long result = 0;
         long totalPrice = 0;
 

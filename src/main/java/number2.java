@@ -14,6 +14,5 @@ class number2 {
         number2 n = new number2();
         String solution = n.solution(30);
         System.out.println(solution);
-
     }
 }
