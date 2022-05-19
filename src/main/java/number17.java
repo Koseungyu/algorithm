@@ -1,6 +1,7 @@
 public class number17 {
     public boolean solution(String s) {
-        boolean answer = false;
+        boolean answer = true;
+        boolean answer2 = false;
 
         if (s.length() == 4 || s.length() == 6) {
             answer = s.matches("^[0-9]*$");
@@ -11,11 +12,11 @@ public class number17 {
         } else if (s.length() >= 9) {
             System.out.println("값이 커서 리턴할 수 없습니다.");
         }
-        return answer;
+        return answer2;
     }
     public static void main(String[] args) {
         number17 n = new number17();
-        boolean solution = n.solution("12b4");
+        boolean solution = n.solution("124123456789");
         System.out.println("solution = " + solution);
     }
 }

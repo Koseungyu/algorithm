@@ -6,7 +6,6 @@ public class number18 {
                 answer = "김서방은 "+i+ "에 있다";
                 break;
             }
-
         }
         return answer;
     }

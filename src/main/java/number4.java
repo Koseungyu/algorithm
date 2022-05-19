@@ -19,4 +19,3 @@ public class number4 {
         System.out.println(answer);
     }
 }
-
